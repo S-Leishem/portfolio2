@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="main">
+      <div class="profile">
+        <img src="profile.jpg" alt="Profile Image">
+      </div>
+      <div class="info">
+        <h1>Hey, I'm <span class="name">Leishem</span></h1>
+        <h2>I'm a <span class="role">Script kiddie</span></h2>
+        <p>
+          I create hacking script and some other projects using python 
+        </p>
+        <div class="social-links">
+          <a href="https://github.com/s-leishem" target="_blank">GitHub</a>
+          <a href="https://instagram.com/soubam_leishem" target="_blank">Instagram</a>
+        </div>
+        <a class="btn" href="#" onclick="showEmail(event)">Contact Me</a>
+        <div id="email-display" class="email-text"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
